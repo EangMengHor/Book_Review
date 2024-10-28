@@ -1,0 +1,12 @@
+*{
+    background-color: black;
+}
+
+input[placeholder], [placeholder], *[placeholder] {
+    color: red;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+    color: white !important;
+    opacity: 0.5 !important;
+ }
